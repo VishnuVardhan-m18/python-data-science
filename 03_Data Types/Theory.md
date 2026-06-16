@@ -118,11 +118,11 @@ print("Hello World")  #Hello World
 print('Hello\nWorld')  #Hello
                        #World
 print("Hello\tWorld")  #Hello	World
-print("Hello\aWorld")  #HelloWorld
+print("Hello\aWorld")  #Bell Sound
 print("Hello\\World")  #Hello\World
 print("\"Hello World\"")  #"Hello World"
-print("Hello\bWorld")  #HelloWorld
-print("Hello\vWorld")  #HelloWorld
+print("Hello\bWorld")  #HellWorld (Backspace Character)
+print("Hello\vWorld")  #Vertical Tab
 print("\'Hello World\'") #'Hello World'
 ```
 ---
@@ -189,7 +189,9 @@ coordinates = (10, 20)
 *Sequence of numbers. *
   
 ```python  
-r = range(5)   # 0 to 4  
+r = range(stop) -> range(5)   # 0 to 4
+r = range(start,stop) -> range(2,8) # 2 to 7  by default start is 0
+r = range(start,stop,step) -> range(1,10,2) # 1,3,5,7,9  by default step is 1
 ```  
   
 ---  
