@@ -1,5 +1,73 @@
 
+# 📚Table of Contents
 
+- *[Strings](#strings)*
+- *[in Operator](#in-operator)*
+- *[len( ) Function](#len--function)*
+- *[String Operations](#string-operations)*
+  - *[Concatenation(`+`)](#concatenation)*
+    - *[str( ) Function](#str--function)*
+    - *[repr( ) Function](#repr--function)*
+    - *[eval( ) Function](#eval--function)*
+  - *[Repetition(`*`)](#repetition)*
+- *[String Interpolation](#string-interpolation)*
+  - *[String Format](#string-format)*
+    - *[f-strings](#f-strings)*
+    - *[format( ) Method](#format--method)*
+    - *[% formatting](#-formatting)*
+- *[String Indexing](#string-indexing)*
+- *[String Slicing](#string-slicing)*
+- *[String Methods](#string-methods)*
+  - *[Essential and Frequently used methods](#essential-and-frequently-used-methods)*
+    - *[lower( ) Method](#lower--method)*
+    - *[upper( ) Method](#upper--method)*
+    - *[capitalize( ) Method](#capitalize--method)*
+    - *[title( ) Method](#title--method)*
+    - *[swapcase( ) Method](#swapcase--method)*
+    - *[strip( ) Method](#strip--method)*
+    - *[lstrip( ) Method](#lstrip--method)*
+    - *[rstrip( ) Method](#rstrip--method)*
+    - *[split( ) Method](#split--method)*
+    - *[join( ) Method](#join--method)*
+    - *[replace( ) Method](#replace--method)*
+    - *[find( ) Method](#find--method)*
+    - *[rfind( ) Method](#rfind--method)*
+    - *[index( ) Method](#index--method)*
+    - *[rindex( ) Method](#rindex--method)*
+    - *[startswith( ) Method](#startswith--method)*
+    - *[endswith( ) Method](#endswith--method)*
+    - *[count( ) Method](#count--method)*
+  - *[Useful for Conditions and Validations](#useful-for-conditions-and-validations)*
+    - *[isalnum( ) Method](#isalnum--method)*
+    - *[isalpha( ) Method](#isalpha--method)*
+    - *[isdigit( ) Method](#isdigit--method)*
+    - *[isnumeric( ) Method](#isnumeric--method)*
+    - *[isdecimal( ) Method](#isdecimal--method)*
+    - *[islower( ) Method](#islower--method)*
+    - *[isupper( ) Method](#isupper--method)*
+    - *[isspace( ) Method](#isspace--method)*
+    - *[istitle( ) Method](#istitle--method)*
+    - *[isascii( ) Method](#isascii--method)*
+    - *[isidentifier( ) Method](#isidentifier--method)*
+    - *[isprintable( ) Method](#isprintable--method)*
+  - *[Helpful in Special Cases](#helpful-in-special-cases)*
+    - *[center( ) Method](#center--method)*
+    - *[ljust( ) Method](#ljust--method)*
+    - *[rjust( ) Method](#rjust--method)*
+    - *[partition( ) Method](#partition--method)*
+    - *[rpartition( ) Method](#rpartition--method)*
+    - *[splitlines( ) Method](#splitlines--method)*
+    - *[zfill( ) Method](#zfill--method)*
+    - *[encode( ) Method](#encode--method)*
+    - *[maketrans( ) Method](#maketrans--method)*
+    - *[translate( ) Method](#translate--method)*
+    - *[expandtabs( ) Method](#expandtabs--method)*
+  - *[Rarely used methods](#rarely-used-methods)*
+    - *[casefold( ) Method](#casefold--method)*
+    - *[format_map( ) Method](#format_map--method)*
+- *[String Methods Quick Access Table](#string-methods-quick-access-table)*
+
+  
 # Strings
 
 - *A string in python is a sequence of characters enclosed in quotes. It can include letters, numbers, symbols and spaces.*
